@@ -30,7 +30,7 @@ jobs:
           python update_time.py
 
       - name: Commit updated index.html
-        uses: EndBug/add-and-commit$v7
+        uses: EndBug/add-and-commit@v7
         with:
           author_name: jiung
           author_email: kgw08003@naver.com
